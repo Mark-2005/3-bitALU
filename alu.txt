@@ -1,0 +1,37 @@
+A=101 , B=101, A + B= result=10010, SF=1, ZF=0
+A=101 , B=101, A - B= result=00000, SF=0, ZF=1
+A=101 , B=101, A * B= result=00001, SF=0, ZF=0
+A=101 , B=101, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=101 , B=110, A + B= result=10011, SF=1, ZF=0
+A=101 , B=110, A - B= result=00001, SF=0, ZF=0
+A=101 , B=110, A * B= result=00010, SF=0, ZF=0
+A=101 , B=110, A % B= result=10001, SF=1, ZF=0, DZF=0
+
+A=101 , B=111, A + B= result=10100, SF=1, ZF=0
+A=101 , B=111, A - B= result=00010, SF=0, ZF=0
+A=101 , B=111, A * B= result=00011, SF=0, ZF=0
+A=101 , B=111, A % B= result=10001, SF=1, ZF=0, DZF=0
+
+A=101 , B=000, A + B= result=10001, SF=1, ZF=0
+A=101 , B=000, A - B= result=10001, SF=1, ZF=0
+A=101 , B=000, A * B= result=10000, SF=1, ZF=1
+A=101 , B=000, A % B= result=10000, SF=1, ZF=1, DZF=1
+
+A=101 , B=001, A + B= result=00000, SF=0, ZF=1
+A=101 , B=001, A - B= result=10010, SF=1, ZF=0
+A=101 , B=001, A * B= result=10001, SF=1, ZF=0
+A=101 , B=001, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=101 , B=010, A + B= result=00001, SF=0, ZF=0
+A=101 , B=010, A - B= result=10011, SF=1, ZF=0
+A=101 , B=010, A * B= result=10010, SF=1, ZF=0
+A=101 , B=010, A % B= result=10001, SF=1, ZF=0, DZF=0
+
+A=101 , B=011, A + B= result=00010, SF=0, ZF=0
+A=101 , B=011, A - B= result=10100, SF=1, ZF=0
+A=101 , B=011, A * B= result=10011, SF=1, ZF=0
+A=101 , B=011, A % B= result=10001, SF=1, ZF=0, DZF=0
+
+A=110 , B=101, A + B= result=10011, SF=1, ZF=0
+A=110 , B=101, A - B= result=10001, SF=1, ZF=0

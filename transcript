@@ -1,0 +1,102 @@
+# vsim Multiplying_tb 
+# Start time: 09:42:18 on Dec 16,2024
+# Loading work.Multiplying_tb
+# Loading work.Multiplying
+add wave -position insertpoint sim:/Multiplying_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Hp  Hostname: DESKTOP-UKG84HH  ProcessID: 19384
+#           Attempting to use alternate WLF file "./wlfta76rq4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta76rq4
+run
+# [Pass], X=101 , Y=101, X*Y= result=0001
+run
+# [Pass], X=101 , Y=110, X*Y= result=0010
+run
+# [Pass], X=101 , Y=111, X*Y= result=0011
+run
+# [Pass], X=101 , Y=000, X*Y= result=10000
+run
+# [Pass], X=101 , Y=001, X*Y= result=10001
+run
+# [Pass], X=101 , Y=010, X*Y= result=10010
+run
+# [Pass], X=101 , Y=011, X*Y= result=10011
+run
+# [Pass], X=110 , Y=101, X*Y= result=0010
+run
+# [Pass], X=110 , Y=110, X*Y= result=0100
+run
+# [Pass], X=110 , Y=111, X*Y= result=0110
+run
+# [Pass], X=110 , Y=000, X*Y= result=10000
+run
+# [Pass], X=110 , Y=001, X*Y= result=10010
+run
+# [Pass], X=110 , Y=010, X*Y= result=10100
+run
+# [Pass], X=110 , Y=011, X*Y= result=10110
+run
+# [Pass], X=111 , Y=101, X*Y= result=0011
+run
+# [Pass], X=111 , Y=110, X*Y= result=0110
+run
+# [Pass], X=111 , Y=111, X*Y= result=1001
+run
+# [Pass], X=111 , Y=000, X*Y= result=10000
+run
+# [Pass], X=111 , Y=001, X*Y= result=10011
+run
+# [Pass], X=111 , Y=010, X*Y= result=10110
+run
+# [Pass], X=111 , Y=011, X*Y= result=11001
+run
+# [Pass], X=000 , Y=101, X*Y= result=10000
+run
+# [Pass], X=000 , Y=110, X*Y= result=10000
+run
+# [Pass], X=000 , Y=111, X*Y= result=10000
+run
+# [Pass], X=000 , Y=000, X*Y= result=0000
+run
+# [Pass], X=000 , Y=001, X*Y= result=0000
+run
+# [Pass], X=000 , Y=010, X*Y= result=0000
+run
+# [Pass], X=000 , Y=011, X*Y= result=0000
+run
+# [Pass], X=001 , Y=101, X*Y= result=10001
+run
+# [Pass], X=001 , Y=110, X*Y= result=10010
+run
+# [Pass], X=001 , Y=111, X*Y= result=10011
+run
+# [Pass], X=001 , Y=000, X*Y= result=0000
+run
+# [Pass], X=001 , Y=001, X*Y= result=0001
+run
+# [Pass], X=001 , Y=010, X*Y= result=0010
+run
+# [Pass], X=001 , Y=011, X*Y= result=0011
+run
+# [Pass], X=010 , Y=101, X*Y= result=10010
+run
+# [Pass], X=010 , Y=110, X*Y= result=10100
+run
+# [Pass], X=010 , Y=111, X*Y= result=10110
+run -all
+# [Pass], X=010 , Y=000, X*Y= result=0000
+# [Pass], X=010 , Y=001, X*Y= result=0010
+# [Pass], X=010 , Y=010, X*Y= result=0100
+# [Pass], X=010 , Y=011, X*Y= result=0110
+# [Pass], X=011 , Y=101, X*Y= result=10011
+# [Pass], X=011 , Y=110, X*Y= result=10110
+# [Pass], X=011 , Y=111, X*Y= result=11001
+# [Pass], X=011 , Y=000, X*Y= result=0000
+# [Pass], X=011 , Y=001, X*Y= result=0011
+# [Pass], X=011 , Y=010, X*Y= result=0110
+# [Pass], X=011 , Y=011, X*Y= result=1001
+# ** Note: $finish    : Multiplying_tb.v(39)
+#    Time: 4900 ps  Iteration: 0  Instance: /Multiplying_tb
+# End time: 09:42:56 on Dec 16,2024, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 2
